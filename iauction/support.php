@@ -22,15 +22,10 @@ if(login_check($mysqli) == true) {
 		<div id="supportSection" class="panel panel-info" style="margin:2em;">
 			<div class="panel-heading">Support</div>
 		  		<div class="panel-body">
-		  			<p>Please submit a ticket through GITHUB [link here...]</p>
+		  			<p>Found a bug? or perhaps you'd like a new feature added? Submit a ticket through <a href="https://github.com/joevegan/iAuction/issues">GITHUB</a> and we'll follow up shortly.</p>
 				</div>       
 		</div>
-		<div id="supportSection" class="panel panel-info" style="margin:2em;">
-		 <div class="panel-heading">Feature Requests</div>
-	  		<div class="panel-body">
-	  			<p>Please submit request through GITHUB [link here...]</p>
-	  		</div>       
-		</div>
+
 	</div>
 
 
