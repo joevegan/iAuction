@@ -1,0 +1,10 @@
+[18-Jan-2016 19:47:42 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/joevegan/public_html/iBank2/includes/test.php on line 7
+[18-Jan-2016 19:48:53 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/joevegan/public_html/iBank2/includes/test.php on line 7
+[18-Jan-2016 19:48:54 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/joevegan/public_html/iBank2/includes/test.php on line 7
+[18-Jan-2016 19:49:27 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/joevegan/public_html/iBank2/includes/test.php on line 8
+[18-Jan-2016 23:20:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/joevegan/public_html/iBank2/includes/createPerson.php on line 15
+[18-Jan-2016 23:22:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/joevegan/public_html/iBank2/includes/createPerson.php on line 15
+[18-Jan-2016 23:24:05 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/joevegan/public_html/iBank2/includes/createPerson.php on line 15
+[18-Jan-2016 23:26:09 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/joevegan/public_html/iBank2/includes/createPerson.php on line 15
+[18-Jan-2016 23:30:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/joevegan/public_html/iBank2/includes/createPerson.php on line 15
+[23-Jan-2016 19:00:58 UTC] PHP Fatal error:  Call to undefined function sec_session_start() in /home/joevegan/public_html/auction/includes/processCreateAuction.php on line 5
