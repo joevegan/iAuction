@@ -18,7 +18,7 @@ Installation:
  3. Create a database user with UPDATE, INSERT, SELECT, and DELETE privledges on the iAuction database
  4. Place the "auction" folder into the root folder of your web server
  5. Update the database connection information in /includes/psl-config.php
- 6. Test loggin into the system with the user: administrator and password: Administrator1
+ 6. Test loggin into the system with the user: admin@example.com and password: Administrator1
  
  
 Road map:
