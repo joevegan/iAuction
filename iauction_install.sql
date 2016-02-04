@@ -25,6 +25,7 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `auctionitem`
 --
+DROP TABLE `auctionitem`;
 
 CREATE TABLE IF NOT EXISTS `auctionitem` (
   `auctionid` bigint(20) NOT NULL,
@@ -38,6 +39,7 @@ CREATE TABLE IF NOT EXISTS `auctionitem` (
 --
 -- Table structure for table `auctionitembid`
 --
+DROP TABLE `auctionitembid`;
 
 CREATE TABLE IF NOT EXISTS `auctionitembid` (
   `auctionid` bigint(20) NOT NULL,
@@ -56,6 +58,7 @@ CREATE TABLE IF NOT EXISTS `auctionitembid` (
 --
 -- Table structure for table `auctions`
 --
+DROP TABLE `auctions`;
 
 CREATE TABLE IF NOT EXISTS `auctions` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
@@ -68,6 +71,7 @@ CREATE TABLE IF NOT EXISTS `auctions` (
 --
 -- Table structure for table `item`
 --
+DROP TABLE `item`;
 
 CREATE TABLE IF NOT EXISTS `item` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
@@ -83,6 +87,7 @@ CREATE TABLE IF NOT EXISTS `item` (
 --
 -- Table structure for table `users`
 --
+DROP TABLE `users`;
 
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -98,7 +103,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 -- Default user: administrator password: Administrator1
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `salt`) VALUES
-(1, 'administrator', 'admin@email.com', '1dd950daaaffa58a0074f3a82691ddeff2aa27348a805d43146a4db36c8e53395ab608bade22a1bbec056cc128e85a069141e15912cf5c623d7c4953303d10a6', '0c464719c2d8d375b7889fcadc384769d3935e65cdac2a6a23e91a54e12aa9896bb3fbbcf37d865536946134c9ff7e605e90006cdb9379a3fc4dd17810d0e53f');
+(1, 'administrator', 'admin@example.com', '1dd950daaaffa58a0074f3a82691ddeff2aa27348a805d43146a4db36c8e53395ab608bade22a1bbec056cc128e85a069141e15912cf5c623d7c4953303d10a6', '0c464719c2d8d375b7889fcadc384769d3935e65cdac2a6a23e91a54e12aa9896bb3fbbcf37d865536946134c9ff7e605e90006cdb9379a3fc4dd17810d0e53f');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
